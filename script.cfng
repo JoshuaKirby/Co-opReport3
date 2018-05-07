@@ -1,0 +1,11 @@
+Script Start
+
+// Ask "Question" Expected_Type Variable
+
+Ask "What is the project title?" String title
+
+Ask "Who is the project author?" String author
+
+Ask "Enter the project description:" String description 
+
+Script End

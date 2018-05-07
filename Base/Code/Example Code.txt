@@ -1,0 +1,29 @@
+app_setup = {
+
+   init = {'test': }
+
+   title = "Example Code"
+
+   <%~ module="Example Module" tag="setup" ~%>
+   
+   <%~ module="Inactive Module" tag="setup" ~%>
+
+   ...App setup Continues...
+
+}
+
+function Project_Code() = {
+
+    doA();
+    doB();
+
+    <%~ module="Example Module" tag="run" ~%>
+    
+    <%~ module="Inactive Module" tag="run" ~%>
+
+    doC();
+}
+
+<%~ module="Example Module" tag="code" ~%>
+
+<%~ module="Inactive Module" tag="code" ~%>

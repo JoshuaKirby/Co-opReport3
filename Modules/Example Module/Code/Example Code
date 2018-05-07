@@ -1,0 +1,21 @@
+<%~ tag="setup" ~%>
+
+Example_Module_ACtive = true
+
+<%~ end tag ~%>
+
+<%~ tag="run" ~%>
+
+runExampleModule();
+
+<%~ end tag ~%>
+
+<%~ tag="code" ~%>
+
+function runExampleModule() = {
+    doX();
+}
+
+<%~ end tag ~%>
+
+

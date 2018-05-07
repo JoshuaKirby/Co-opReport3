@@ -1,0 +1,25 @@
+app_setup = {
+
+   init = {'test': }
+
+   title = "Example Code"
+
+   Example_Module_ACtive = true
+
+   ...App setup Continues...
+
+}
+
+function Project_Code() = {
+
+    doA();
+    doB();
+
+    runExampleModule();
+
+    doC();
+}
+
+function runExampleModule() = {
+    doX();
+}
